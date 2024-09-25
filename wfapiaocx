@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>发票信息</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center; /* Centering the title and note */
+        }
+        h1 {
+            color: #333;
+            font-weight: normal; /* No bold */
+            font-size: 22px; /* Slightly larger font size for the title */
+        }
+        .note {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 16px; /* Size for the note */
+        }
+        .note-line-1, .note-line-2 {
+            display: block; /* Ensure each line is a block */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Removing margin */
+            text-align: left; /* Left align the list */
+        }
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 14px; /* Smaller font size for the list items */
+        }
+        .space {
+            margin-left: 20px; /* Adding space for numbers */
+        }
+        .footer {
+            margin-top: 20px; /* Adding space above the footer */
+            font-size: 14px; /* Font size for the footer */
+            color: #666; /* Footer text color */
+        }
+    </style>
+</head>
+<body>
+    <h1>发票信息</h1>
+    <p class="note">
+        <span class="note-line-1">以下信息仅为发票二维码所含信息，并不</span>
+        <span class="note-line-2">代表查验发票真伪的结果。</span>
+    </p>
+    <ul>
+        <li>发票号码:<span class="space">   </span>24442000000327580350</li>
+        <li>合计金额:<span class="space">   </span>4200元(含税)</li>
+        <li>开票日期:<span class="space">   </span>2024年8月21日</li>
+    </ul>
+    <div class="footer">
+        如需查验发票真伪，请通过税务机关提供的官方渠道进行查验。
+    </div>
+</body>
+</html>
